@@ -1,0 +1,880 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi there",
+      "How are you?",
+      "Is anyone there?",
+      "Hello buddy",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup"   
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College students"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "My College has total 2 floors "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (Place name)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "computerhod",
+   "patterns": [
+      "Who is computer HOD",
+      "Where is computer HOD",
+      "computer hod",
+      "name of computer hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "extchod",
+   "patterns": [
+      "Who is extc HOD",
+      "Where is  extc HOD",
+      "extc hod",
+      "name of extc hod"
+   ],
+   "responses": [
+      "Different school wise hod are different.So be more clear with your school or department"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of principal",
+      "whatv is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college contact this number: ADD NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hod",
+   "patterns": [
+      "hod",
+      "hod name",
+      "who is the hod"
+   ],
+   "responses": [
+      "HODs differ for each branch, please be more specific like: (HOD it)"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "shareworks_onboarding",
+   "patterns": [
+      "Shareworks client not linked",
+      "Client not linked to Shareworks",
+      "Shareworks login issue",
+      "Onboarding URL not opening",
+      "Client sign-up without Shareworks",
+      "Trouble linking client to Shareworks",
+      "Shareworks account not connected",
+      "Can't access Onboarding URL",
+      "Issues with Shareworks client login",
+      "Problems with Shareworks integration",
+      "Shareworks registration error",
+      "Shareworks onboarding help",
+      "Client account not found on Shareworks",
+      "Shareworks access problems",
+      "Shareworks authentication issue"
+   ],
+   "responses": [
+      "Solution:\nStep 1 &gt; check client status in client DB\nselect c.CLIENT_CODE, c.SHAREWORKS_FLAG, s.SHAREWORKS_ID,\ns.SHAREWORKS_FLAG, a.request_id, a.BACK_OFFICE_ACCOUNT_OPENING_STATUS\nfrom clients c inner join SOLUTION_USER s on c.CLIENT_ID=s.user_id inner join\nACCOUNT_CREATION_REQUEST_ITEM a on c.client_id= a.CLIENT_ID\nwhere c.CLIENT_CODE=&#39;-------&#39;\n\nStep 2 &gt; update clients and solution_user table\nupdate clients\nset SHAREWORKS_FLAG =&#39;OK&#39;\nwhere CLIENT_CODE=&#39;-------&#39;\nCheck it\nUpdate SOLUTION_USER\nset SHAREWORKS_ID= &#39;xxxxxxxxxx&#39; -- without dashes\nwhere user_id=&#39;-----&#39;\n\nStep 3 &gt; Hit the link button on Client admin.\n\nstep 4 &gt; Recheck the client status\n\nselect c.CLIENT_CODE, c.SHAREWORKS_FLAG, s.SHAREWORKS_ID,\ns.SHAREWORKS_FLAG, a.request_id, a.BACK_OFFICE_ACCOUNT_OPENING_STATUS\nfrom clients c inner join SOLUTION_USER s on c.CLIENT_ID=s.user_id inner join\nACCOUNT_CREATION_REQUEST_ITEM a on c.client_id= a.CLIENT_ID\nwhere c.CLIENT_CODE=&#39;-------&#39;"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "backoffice_outage",
+   "patterns": [
+      "BackOffice temporary outage",
+      "AP! misbehavior after submit",
+      "Authorization flow issue",
+      "AP! failures after outage",
+      "Fix BackOffice after outage",
+      "Troubleshoot AP! after outage",
+      "After submit authorization problem",
+      "Issues with AP! after BackOffice outage",
+      "BackOffice downtime impact on AP!",
+      "Authorization process not working",
+      "AP! errors post-outage",
+      "BackOffice system down",
+      "AP! issues post-outage",
+      "Fixing AP! after BackOffice outage",
+      "BackOffice disruption",
+      "Troubleshooting AP! after outage",
+      "Recovering from BackOffice downtime",
+      "Authorization problems after outage",
+      "Resolving BackOffice impact on AP!"
+   ],
+   "responses": [
+      "Run the scripts listed below to enable the submit for authorization button:\n\n1. Update CLIENTS\n   set STATUS TYPE ID=1, SUBMITTED TO_BACKOFFICE=null\n   where CLIENT_CODE = <client_code>\n\n2. Update ACCOUNT CREATION REQUEST ITEM\n   set STATUS TYPE ID=1\n   where STATUS_TYPE_ID=3 and ACCOUNT_NO='<account_number>'\n\n3. Open the admin portal and hit the submit for authorization button (wait until the execution ends).\n\n4. Edit the tables listed below:\n   CLIENTS\n   - Set STATUS TYPE ID to 3\n   ACCOUNT CREATION REQUEST ITEM\n   - Set STATUS_TYPE_ID to 3 just for the edited accounts earlier in the first step (to avoid approving the unverified accounts by compliance).\n\n5. Check the status in the admin portal:\n   - STATUS is active\n   - Sent_to_SFTP is 'Y'\n   - Trades_Ok is 'Y'\n   - Welcome_email_sent is 'Y'\n\nIf you encounter any issues during this process, please provide more details, and we'll assist you further."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "activate_admin_account",
+   "patterns": [
+      "Activate admin account",
+      "Enable administrator access",
+      "Admin account activation",
+      "Grant admin privileges",
+      "Set up admin user",
+      "Access admin privileges",
+      "How do I become an admin?",
+      "Need admin access",
+      "Admin rights request",
+      "Activate administrator account",
+      "Elevate user to admin",
+      "Accessing administrator account"
+   ],
+   "responses": [
+      "Step 1:\nGo to Ninja: cgsupport (rmmservice.com)\nSearch for the device.\n\nStep 2:\nOpen Command Prompt (cmd) as administrator.\n\nStep 3:\nRun one of the following commands:\n- `Net localgroup administrators /add canwest\\username-a`\n- `Net localgroup administrators /add AzureAD\\username-a@canaccord.com`\n\nThis will activate the admin account and grant the necessary privileges. If you encounter any issues during this process, please provide more details, and we'll assist you further."
+   ],
+   "context_set": "admin_account_activation_context"
+},
+{
+   "tag": "status-responses",
+   "patterns": [
+      "What is CLIENT_LOCKED status?",
+      "Tell me about IDENTITY_VERIFIED",
+      "Explain TWO_FACTOR_SENT status",
+      "What does TWO_FACTOR_VERIFIED mean?",
+      "Account locked",
+      "Unlock my account",
+      "Blocked account",
+      "Account blocked",
+      "Can't log in",
+      "Too many attempts",
+      "Account security",
+      "More details about username retrieval",
+      "How does username retrieval work?",
+      "Tell me about username retrieval process",
+      "More details about password reset",
+      "How does password reset work?",
+      "Tell me about password reset process"
+   ],
+   "responses": [
+      "To use Shareworks, first of all, the client should be a Shareworks client. They should click on the 'Forgot username?' or 'Forgot password?' link as provided below:\n\nPlease click here for more details about the process and restrictions to reset the password.\n\nPlease click here for more details about the process to retrieve their username.\n\nIf the client enters a wrong username, account number, or SIN five times during these processes, their account will be blocked. To unlock their account, please proceed as follows:\n\n1. Go to the broker-engine DB.\n2. Execute this query:\n\nSELECT status FROM CL_CREDENTIALS_REQUEST WHERE ClientId = (SELECT id FROM CL_CLIENT WHERE ClientNumber = '----')\n\nDelete any records from CL_CREDENTIALS_REQUEST where ClientId = (SELECT id FROM CL_CLIENT WHERE ClientNumber = '----').\n\nThe status can have several values:\n\n- CLIENT_LOCKED: This means the client has entered incorrect credentials more than 5 times.\n- IDENTITY_VERIFIED: This means that the client didn’t click the 'Text my phone' button yet.\n- TWO_FACTOR_SENT: This means the secure code has been sent to the client.\n- TWO_FACTOR_VERIFIED: This means the client has clicked on the submit button after entering the secure code sent to them by phone."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "wipe-device-azure",
+   "patterns": [
+      "How do I wipe a device with Azure Intune?",
+      "Wiping device through Azure Intune",
+      "Steps for device wipe using Azure Intune",
+      "Device wipe via Intune",
+      "Azure Intune device wipe process",
+      "How can I wipe a device locally?",
+      "Device wipe using local settings",
+      "Steps for local device wipe",
+      "Wiping a device locally",
+      "Local device wipe process"
+   ],
+   "responses": [
+      "To wipe a device using Azure Intune, follow these steps:\n\n1. Make sure the device is on and connected to the Internet.\n2. Go to Intune Canaccord Genuity at canaccord.onmicrosoft.com.\n3. Access the Microsoft Endpoint Manager admin center.\n4. On the left side, click on 'Devices' ➔ 'All devices.'\n5. Search for the device by its name (e.g., N-TN-PF1B882N).\n6. Enter the device details.\n7. Click on 'Wipe.'\n8. Confirm by clicking 'Wipe' again on the popup.\n9. Wait for a few moments; the wipe process will start on the device."
+   ],
+   "context_set": ""
+}
+]
+}
